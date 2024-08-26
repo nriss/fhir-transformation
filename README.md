@@ -22,3 +22,5 @@ docker logs --follow matchbox
 3/ Adapt application.yml
 
 To add some new packages to matchbox, you just have to create a new folder equivalent to "with-cda", and add the packages you want indicating the url.
+
+To change the package, you have to delete your docker container (using docker desktop for instance) and then go to step 2/
