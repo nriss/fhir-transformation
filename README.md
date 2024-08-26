@@ -24,3 +24,10 @@ docker logs --follow matchbox
 To add some new packages to matchbox, you just have to create a new folder equivalent to "with-cda", and add the packages you want indicating the url.
 
 To change the package, you have to delete your docker container (using docker desktop for instance) and then go to step 2/
+
+3/ Launch transformations
+
+Then, you will have to launch the transformations in the tests folder :
+
+* The cda folder allows to test with the swiss maps and a first try with the french maps
+* the eds (entrepôt de données de santé) folder allows to test with https://github.com/ansforge/IG-FHIR-EDS-SOCLE-COMMUN
